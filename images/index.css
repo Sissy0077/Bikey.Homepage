@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .footer {
+  
+    Padding: 16px;
+    padding-bottom: 200px;
+  }
+   .social-icon { 
+    width: 100px;
+    height: 100px;
+    
+  /* }
+  *{  
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+    
+  ul{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+  
+  ul li{
+      position: relative;
+      background: white;
+      width: 90px;
+      height: 90px;
+      margin: 0 20px;
+      border: 3px solid;
+      border-radius: 50%;
+      box-sizing: border-box;
+      cursor: pointer;
+      transition: .5s;
+      overflow: hidden;
+    } */
+  
+  /* ul li .fab{
+      font-size: 35px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: .5s;
+    }
+  ul li:nth-child(1){
+    border-color:lightslategrey;
+    }
+  ul li:nth-child(1) .fab {
+    color: lightslategrey;
+    }
+  ul li:nth-child(2){
+    border-color: lightslategrey;
+    }
+  ul li:nth-child(2) .fab {
+    color: lightslategrey;
+    }
+  ul li:nth-child(3){
+    border-color: lightslategrey;
+    }
+  ul li:nth-child(3) .fab {
+    color: lightslategrey;
+    }
+  ul li:nth-child(4){
+    border-color:  lightslategrey;
+    }
+  ul li:nth-child(4) .fab {
+    color: lightslategrey;
+    }
+  ul li:hover:nth-child(1) {
+    background:  lightslategrey;
+    }
+  ul li:hover:nth-child(2) {
+    background: lightslategrey;
+    }
+  ul li:hover:nth-child(3) {
+    background:  lightslategrey; 
+    }
+  ul li:hover:nth-child(4) {
+    background:  lightslategrey;
+    }
+  ul li .fab:nth-child(1){
+    left: -50%;
+    opacity: 0;
+    }
+  ul li:hover .fab:nth-child(1){
+    left: -50%;
+    opacity: 1;
+    color: white;
+    }
+  ul li:hover .fab:nth-child(2){
+    left: 150%;
+    opacity: 0;
+    }  */
+  
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+    @media screen and (min-width: 320px) {
+      .social-icon {        
+         display: inline-block;
+      }
+   }
+  }
