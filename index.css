@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
   }
+  .navbar-buttons{
+    position:relative;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: .5rem 1rem;
+  }
   
   body {
     font-family: Arial, Helvetica, sans-serif;
