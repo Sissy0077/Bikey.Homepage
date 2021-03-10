@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
   }
+  .sticky {
+    max-width:fit-content; 
+    height: auto;
+  }
+
   .navbar-buttons{
     position:relative;
     display: flex;
@@ -143,8 +148,8 @@
       margin-bottom: 20px;
     }
   }
-  @media screen and (max-width: 1024px) { /* Specific to this particular image */
-    img.bg {
+  @media screen and (max-width: 600px) { /* Specific to this particular image */
+    .header-img{
       left: 50%;
       margin-left: -512px;   /* 50% */
     }
